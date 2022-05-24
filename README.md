@@ -16,8 +16,55 @@ Click The Link TO Directly Go to Signup Page <a href="https://github.com/signup?
 <h4>First We Need to Config Our Account on gitBash So When We came back Again Our Bash knows that its us who is using the git bash and doing updations . 
   go to git bash and write <br>
   <br>
-  <div>
-    `git config --global user.name "username"`
-  </div>
-  `Note: Username and useremail Should be same as on github`
   
+  ```diff
+  git config --global user.name "name"
+  git config --global user.email "email"
+```
+  Note : User Name And Email Should Be Same as on github <br>
+  To See Current username and email Use the command given Below.
+  ```diff
+  git config user.name 
+  git config user.email 
+```
+  
+  <h2>
+    After Configure the name and email We can start by making local repositry on git bash 
+  </h2>
+  
+    git init             //This command is used to initialize the local repository 
+  After we use this command in our bash there will be folder named <b>.git </b> in our local computer states that repositry is initialized properly 
+
+  ``` 
+  touch filename.extension     //touch is command used to create files like touch.txt
+  We can create files like this or from our window and then we need to add this the bash 
+  ```
+  Now After creating fikes we need to add files to our local repositry 
+  
+  Always use ```git status ``` command to check the status about the files .
+  <img src="https://cdn.discordapp.com/attachments/943043933695541271/978697902782308372/unknown.png"/>
+  <br><br>
+  <h3>Now the files are in untracked region we need to add them to track region to do that we have to use the command .</h3>
+  
+  ``` 
+  git add filename    //add single file
+  git add . //Add multiple files together 
+  git add -A //Add multiple Files together 
+  ```
+  Do the Git status again and it will show that file added to tracked region 
+  <img src="https://cdn.discordapp.com/attachments/943043933695541271/978699043062566952/unknown.png"/>
+  <br><br>
+  After We Added file We need to commit all the changes done by us to do that we use 
+  
+  ```
+  git commit -m "write a message"
+  ```
+  And then again git status for the clear detail about the file status.
+  <img src="https://cdn.discordapp.com/attachments/943043933695541271/978700129043374141/unknown.png">
+  <br><br>
+  <h2> Now our content/files is Successfully being added and commited to our local repositry Now We need to push them to our global /github repository</h2>
+  <h3> now go to github and make a new repositry and make it public  </h3>
+  <img src="https://cdn.discordapp.com/attachments/943043933695541271/978701906857836554/unknown.png"/>
+  <h3>Scroll Down And click on create repository </h3>
+  <H2>After A new repositry the github should look something like this </h2>
+  <img src = "">
