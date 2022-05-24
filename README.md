@@ -67,4 +67,19 @@ Click The Link TO Directly Go to Signup Page <a href="https://github.com/signup?
   <img src="https://cdn.discordapp.com/attachments/943043933695541271/978701906857836554/unknown.png"/>
   <h3>Scroll Down And click on create repository </h3>
   <H2>After A new repositry the github should look something like this </h2>
-  <img src = "">
+  <img src = "https://cdn.discordapp.com/attachments/943043933695541271/978703258409398302/unknown.png"/>
+  
+  <h2>Now We Need to Link Our Github Repository to our Local Repository </h2>
+    This is called as adding remote to our local repository
+  
+    git remote add origin "the link of repository given in github" 
+```
+```
+ <img src="https://cdn.discordapp.com/attachments/943043933695541271/978704774671241296/unknown.png"/>
+    
+<h2>Now The Link Between GitHub And Git Bash Is Setup now we need to push the files from our local repository to our global aka github repository</h2>
+  
+  ```
+  git push origin master 
+  ```
+ <img src="https://cdn.discordapp.com/attachments/943043933695541271/978707871925698680/unknown.png">
