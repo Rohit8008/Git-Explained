@@ -16,7 +16,8 @@ Click The Link TO Directly Go to Signup Page <a href="https://github.com/signup?
 <h4>First We Need to Config Our Account on gitBash So When We came back Again Our Bash knows that its us who is using the git bash and doing updations . 
   go to git bash and write <br>
   <br>
-  <div style="color:blue;">
-    <b>git config --global user.name "username"</b>
-  </div>        
-  Note: Username and useremail Should be same as on github
+  <div>
+    `git config --global user.name "username"`
+  </div>
+  `Note: Username and useremail Should be same as on github`
+  
